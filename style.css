@@ -26,6 +26,7 @@ body {
     ),
     url(./img/header-image.webp);
   background-size: cover;
+  background-position-y: 20%;
   padding: 15vh 0 12vh;
 }
 
