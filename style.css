@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: #26262a;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+}
+
+#app-logo {
+  width: 50px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  top: 0;
+}
+
+.page-heading {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(./img/header-image.webp);
+  background-size: cover;
+  padding: 15vh 0 12vh;
+}
+
+.page-heading h1 {
+  text-align: center;
+  font-weight: 100;
+}
+
+.container {
+  max-width: 1020px;
+  margin: auto;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 5vh;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-size: 3vh;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+h3 {
+  color: #29b6f6;
+}
